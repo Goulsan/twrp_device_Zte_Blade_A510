@@ -4,6 +4,9 @@ DEVICE_PATH := device/zte/P635A50
 TARGET_OTA_ASSERT_DEVICE := P635A50, P635A50_BAIE_LIFE, Blade_A510 
 # if you will have errors, contact me and send your codename
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
