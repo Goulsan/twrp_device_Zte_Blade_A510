@@ -4,9 +4,6 @@ DEVICE_PATH := device/zte/P635A50
 TARGET_OTA_ASSERT_DEVICE := P635A50, P635A50_BAIE_LIFE, Blade_A510 
 # if you will have errors, contact me and send your codename
 
-# For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -65,11 +62,22 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
+TW_ALLOW_PARTITION_SDCARD := true
+TW_DEFAULT_EXTERNAL_STORAGE := true
+TW_EXTERNAL_STORAGE_PATH := "/external_sd"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sd"
+TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
+TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+TW_NO_REBOOT_BOOTLOADER := false
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 80
+TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_CUSTOM_BATTERY_PATH := /sys/devices/platform/battery/power_supply/battery
 
 
 # Partitions
