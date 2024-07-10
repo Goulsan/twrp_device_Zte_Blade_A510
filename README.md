@@ -1,3 +1,3 @@
-*Пока тут ничего нету, но дерево скоро будет;)
+*Дерево готово, скоро попробую собрать TWRP!
 
-*There is nothing to see now, but i will make twrpdt soon;)
+*DT is ready, soon i'll try to build TWRP!
