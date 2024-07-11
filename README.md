@@ -1,3 +1,3 @@
-*Дерево готово, скоро попробую собрать TWRP!
+*Рекавери стартануло! Сегодня протестирую и наверное будет готово:)
 
-*DT is ready, soon i'll try to build TWRP!
+*Recovery is booted! I'll test it today and maybe it'll ready:)
