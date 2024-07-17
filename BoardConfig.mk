@@ -117,3 +117,6 @@ TW_USE_TOOLBOX := true
 
 # Fstab
 PRODUCT_COPY_FILES += device/zte/P635A50/twrp.fstab:recovery/root/etc/twrp.fstab
+
+# 32Bit
+TARGET_SUPPORTS_64_BIT_APPS := false
